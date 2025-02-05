@@ -165,10 +165,111 @@
 ### บันทึกผลการทดลอง
 - รหัสเอกสาร HTML ที่เขียน:
 ```html
-[วางโค้ด HTML ที่นี่]
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse</title>
+</head>
+<body>
+    <nav id="nav">
+        <a href="การทดลองที่ 4.html">หน้าหลัก</a>
+    </nav>
+    <section>
+        <h1>Shop</h1>
+        <figure>
+            <a href="images/products/hyperx pulsefire haste.jpg">
+                <img src="images/products/hyperx pulsefire haste.jpg" alt="hyperx pulsefire haste" width="250">
+            </a>
+            <figcaption>
+                <p>
+                    <strong>Brand:</strong>
+                    hyperx
+                </p>
+                <p>
+                    <strong>Model:</strong>
+                    hyperx pulsefire haste wired Gaming mouse
+                </p>
+                <p>
+                    <strong>PRICE:</strong>
+                    2,000 THB
+                </p>
+            </figcaption>
+        </figure>
+        <hr>
+        <figure>
+            <a href="images/products/pink G pro x superlight.jpg">
+                <img src="images/products/pink G pro x superlight.jpg" alt="pink G pro x superlight" width="250">
+            </a>
+            <figcaption>
+                <p>
+                    <strong>Brand:</strong>
+                    Logitech
+                </p>
+                <p>
+                    <strong>Model:</strong>
+                    logitech g pro x superlight (pink)
+                </p>
+                <p>
+                    <strong>PRICE:</strong>
+                    4,570 THB
+                </p>
+            </figcaption>
+        </figure>
+        <hr>
+        <figure>
+            <a href="images/products/Razer Viper V2 Pro (Black).jpg">
+                <img src="images/products/Razer Viper V2 Pro (Black).jpg" alt="Black Razer Viper V2 Pro" width="250"> 
+            </a>
+            <figcaption>
+                <p>
+                    <strong>Brand:</strong>
+                    Razer
+                </p>
+                <p>
+                    <strong>Model:</strong>
+                    Razer Viper V2 Pro (black)
+                </p>
+                <p>
+                    <strong>PRICE:</strong>
+                    5,690 THB
+                </p>
+            </figcaption>
+        </figure>
+        <hr>
+        <figure>
+            <a href="images/products/Pr.01.jpg">
+                <img src="images/products/Pr.01.jpg" alt="StormBreaker BLG Wireless Gaming Mouse" width="250"> 
+            </a>
+        </figure>
+            <figcaption>
+                <p>
+                    <strong>Brand:</strong>
+                    Pwnage
+                </p>
+                <p>
+                    <strong>Model:</strong>
+                    StormBreaker BLG Wireless Gaming Mouse
+                </p>
+                <p>
+                    <strong>PRICE:</strong>
+                    6,900 THB
+                </p>
+            </figcaption>
+        </figure>
+        <hr>
+        <figure>
+            <hr>
+    </section>
+    <a href="#nav">กลับด้านบน</a>
+</body>
+</html>
 ```
 - ภาพผลลัพธ์:
 [วางภาพ screenshot ที่นี่]
+![image](https://github.com/user-attachments/assets/b4d4a777-c313-4210-a324-201d2d79fad1)
+![image](https://github.com/user-attachments/assets/0a1585a7-10b4-4047-8dfc-51c1db93b656)
 
 
 
