@@ -268,6 +268,7 @@
 ```
 - ภาพผลลัพธ์:
 [วางภาพ screenshot ที่นี่]
+
 ![image](https://github.com/user-attachments/assets/b4d4a777-c313-4210-a324-201d2d79fad1)
 ![image](https://github.com/user-attachments/assets/0a1585a7-10b4-4047-8dfc-51c1db93b656)
 
