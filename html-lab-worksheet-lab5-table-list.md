@@ -66,10 +66,110 @@
 1. สร้างตารางแสดงข้อมูลส่วนตัว
 2. สร้างรายการเมนูอาหาร
 
-[วางโค้ด HTML ที่นี่]
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<style>
+    table {
+        width: 60%;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+    }
+
+    th {
+        background-color: #f1f1f1;
+    }
+</style>
+<body>
+    <h1>ข้อมูลส่วนตัว</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ข้อมูลส่วนตัว</th>
+                <th>รายละเอียด</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ชื่อนักศึกษา</td>
+                <td>นายกิตติภัค เกตุแก้ว</td>
+            </tr>
+            <tr>
+                <td>อายุ</td>
+                <td>18 ปี</td>
+            </tr>
+            <tr>
+                <td>ที่อยู่</td>
+                <td>88/1 ถนนหลวงแพ่ง แขวงขุมทอง เขตลาดกระบัง กรุงเทพมหานคร</td>
+            </tr>
+            <tr>
+                <td>มหาวิทยาลัย</td>
+                <td>สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง</td>
+            </tr>
+            <tr>
+                <td>คณะ</td>
+                <td>คณะครุศาสตร์</td>
+            </tr>
+            <tr>
+                <td>สาขาวิชา</td>
+                <td>เทคโนโลยีคอมพิวเตอร์</td>
+            </tr>
+            <tr>
+                <td>อีเมล</td>
+                <td>oom12052549@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <hr>
+    <h1>เมนูอาหาร</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ชื่ออาหาร</th>
+                <th>ราคา (บาท)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ผัดมาม่า</td>
+                <td>40 บาท
+            </tr>
+            <tr>
+                <td>ผัดไทย</td>
+                <td>45 บาท 
+            </tr>
+            <tr>
+                <td>บะหมี่ต้มยำทะเล</td>
+                <td>80 บาท 
+            </tr>
+            <tr>
+                <td>ข้าวผัดอเมกัน</td>
+                <td>40 บาท
+            </tr>
+            <tr>
+                <td>ยำมาม่า</td>
+                <td>60 บาท
+            </tr>
+            <tr>
+                
+        </tbody>
+    </table>
+
+</body>
+</html>
 ```html
 
 ```
 - ภาพผลลัพธ์:
 [วางภาพ screenshot ที่นี่]
+![image](https://github.com/user-attachments/assets/682353a1-9985-433e-9721-2a17ace27b88)
 
